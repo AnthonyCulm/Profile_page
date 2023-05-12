@@ -1,304 +1,306 @@
  * {
-    padding: 0;
-    margin: 0;
-}
+     padding: 0;
+     margin: 0;
+ }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.header {
-    height: 30px;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-
-}
-
-.header-links {
-    width: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-
-}
-
-.nav-bar-links {
-    color: white;
-    margin-right: 10px;
-    font-size: x-small;
-    text-decoration: none;
-
-
-}
-
-.links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.nav-title {
-    margin-right: 30px;
-    font-size: medium;
-
-}
-
-.btn {
-    margin-left: 80px;
-    font-size: x-small;
-    background-color: rgb(23, 162, 184);
-    border-color: rgb(23, 162, 184);
-    color: white;
-}
-
-.columns {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-
-}
-
-.left-column {
-    margin-left: 200px;
-}
-
-.top-left-block {
-    width: 240px;
-    height: 165px;
-    background-color: white;
-
-    margin: 20px;
-    margin-right: 10px;
-
-
-}
-
-.blue-rectangle {
-    width: 240px;
-    height: 25%;
-    background-color: rgb(23, 162, 184);
-
-}
-
-#profile-pic {
-    width: 50px;
-    position: relative;
-    top: 15px;
-    left: 13px;
-    border-radius: 50%;
-
-}
-
+ .container {
+     width: 100%;
+     margin: 0 auto;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .header {
+     height: 30px;
+     width: 100%;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+
+ }
+
+ .header-links {
+     width: 100%;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     list-style-type: none;
+
+ }
+
+ .nav-bar-links {
+     color: white;
+     margin-right: 10px;
+     font-size: x-small;
+     text-decoration: none;
+
+
+ }
+
+ .links {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     text-decoration: none;
+     list-style-type: none;
+ }
+
+ .nav-title {
+     margin-right: 30px;
+     font-size: medium;
+
+ }
+
+ .btn {
+     margin-left: 80px;
+     font-size: x-small;
+     background-color: rgb(23, 162, 184);
+     border-color: rgb(23, 162, 184);
+     color: white;
+ }
+
+ .columns {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+ .left-column {
+     margin-left: 200px;
+ }
+
+ .top-left-block {
+     width: 240px;
+     height: 165px;
+     background-color: white;
+
+     margin: 20px;
+     margin-right: 10px;
+
+
+ }
+
+ .blue-rectangle {
+     width: 240px;
+     height: 25%;
+     background-color: rgb(23, 162, 184);
+
+ }
+
+ #profile-pic {
+     width: 50px;
+     position: relative;
+     top: 15px;
+     left: 13px;
+     border-radius: 50%;
+
+ }
+
 
-.profile-info-box {
-    width: 234px;
-    height: 117.75px;
-    color: black;
-    background-color: white;
-    border-left: 3px solid rgb(204, 204, 204);
-    border-right: 3px solid rgb(204, 204, 204);
-    border-bottom: 3px solid rgb(204, 204, 204);
-    color: black;
-}
-
-.profile-name {
-    padding-top: 30px;
-    padding-left: 10px;
-}
-
-.location {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0px;
-}
-
-#map-maker {
-    width: 8px;
-    margin-left: 10px;
-    margin-right: 3px;
-
-}
-
-.info-size-1 {
-    font-size: x-small;
-    margin-left: 10px;
-}
-
-#gear {
-    width: 8px;
-}
-
-.edit-profile {
-    font-size: xx-small;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-.bottom-left-block {
-    width: 240px;
-    height: 115px;
-    background-color: white;
-
-    margin: 20px;
-    margin-right: 10px;
-}
-
-.edu {
-    width: 240px;
-    height: 20%;
-    background-color: rgb(51, 51, 51);
-    color: white;
-    display: flex;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.edu-top-text {
-    margin-left: 10px;
-
-}
-
-.edu-info {
-    width: 234px;
-    height: 86px;
-
-    background-color: white;
-    border-left: 3px solid rgb(204, 204, 204);
-    border-right: 3px solid rgb(204, 204, 204);
-    border-bottom: 3px solid rgb(204, 204, 204);
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-ol{
-    padding-top: 7px;
-}
-
-.main-edu {
-    margin-left: 10px;
-    list-style-type: none;
-    font-size: small;
-}
-
-.date-edu {
-    margin-left: 10px;
-    color: rgb(130, 130, 130);
-    list-style-type: none;
-    font-size: smaller;
-
-}
-
-.right-column {
-    margin-right: 200px;
-}
-
-.top-right-block {
-    width: 140px;
-    height: 97.5px;
-    background-color: white;
-    margin: 20px;
-    margin-left: 10px;
-
-}
-
-.connections-request {
-    width: 100%;
-    height: 25%;
-    background-color: rgb(51, 51, 51);
-    color: white;
-    display: flex;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.request-button {
-    margin-left: 10px;
-    border-radius: 50%;
-    font-size: x-small;
-    width: 20px;
-
-}
-
-.requester-info {
-    display: flex;
-    align-items: center;
-    width: 134px;
-    height: 75.25px;
-    border-left: 3px solid rgb(204, 204, 204);
-    border-right: 3px solid rgb(204, 204, 204);
-    border-bottom: 3px solid rgb(204, 204, 204);
-    color: black;
-
-}
-
-.requester-pic {
-    width: 15px;
-    margin: 1px;
-    border-radius: 50%;
-}
-.requester-name{
-    font-size: smaller;
-}
-
-.check-mark {
-    padding-left: 25px;
-}
-
-.bottom-right-block {
-    width: 140px;
-    height: 150px;
-    background-color: white;
-
-    margin: 20px;
-    margin-left: 10px;
-}
-
-.your-connetions {
-    width: 100%;
-    height: 20%;
-    background-color: rgb(51, 51, 51);
-    color: white;
-    display: flex;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.your-connections-info {
-    width: 134px;
-    height: 84px;
-    border-left: 3px solid rgb(204, 204, 204);
-    border-right: 3px solid rgb(204, 204, 204);
-    border-bottom: 3px solid rgb(204, 204, 204);
-    color: black;
-    display: flex;
-    align-items: center;
-
-}
-
-
-.your-connections-extras {
-    width: 134px;
-    height: 24px;
-    border-left: 3px solid rgb(204, 204, 204);
-    border-right: 3px solid rgb(204, 204, 204);
-    border-bottom: 3px solid rgb(204, 204, 204);
-    color: black;
-}
-
-.veiw-more {
-    font-size: x-small;
-    margin-left: 10px;
-}
+ .profile-info-box {
+     width: 234px;
+     height: 117.75px;
+     color: black;
+     background-color: white;
+     border-left: 3px solid rgb(204, 204, 204);
+     border-right: 3px solid rgb(204, 204, 204);
+     border-bottom: 3px solid rgb(204, 204, 204);
+     color: black;
+ }
+
+ .profile-name {
+     padding-top: 30px;
+     padding-left: 10px;
+ }
+
+ .location {
+     margin-top: 5px;
+     margin-bottom: 5px;
+     margin-left: 0px;
+ }
+
+ #map-maker {
+     width: 8px;
+     margin-left: 10px;
+     margin-right: 3px;
+
+ }
+
+ .info-size-1 {
+     font-size: x-small;
+     margin-left: 10px;
+ }
+
+ #gear {
+     width: 8px;
+ }
+
+ .edit-profile {
+     font-size: xx-small;
+     margin-left: 10px;
+     margin-top: 5px;
+ }
+
+ .bottom-left-block {
+     width: 240px;
+     height: 115px;
+     background-color: white;
+
+     margin: 20px;
+     margin-right: 10px;
+ }
+
+ .edu {
+     width: 240px;
+     height: 20%;
+     background-color: rgb(51, 51, 51);
+     color: white;
+     display: flex;
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .edu-top-text {
+     margin-left: 10px;
+
+ }
+
+ .edu-info {
+     width: 234px;
+     height: 86px;
+
+     background-color: white;
+     border-left: 3px solid rgb(204, 204, 204);
+     border-right: 3px solid rgb(204, 204, 204);
+     border-bottom: 3px solid rgb(204, 204, 204);
+     color: black;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ ol {
+     padding-top: 7px;
+ }
+
+ .main-edu {
+     margin-left: 10px;
+     list-style-type: none;
+     font-size: small;
+ }
+
+ .date-edu {
+     margin-left: 10px;
+     color: rgb(130, 130, 130);
+     list-style-type: none;
+     font-size: smaller;
+
+ }
+
+ .right-column {
+     margin-right: 200px;
+ }
+
+ .top-right-block {
+     width: 140px;
+     height: 97.5px;
+     background-color: white;
+     margin: 20px;
+     margin-left: 10px;
+
+ }
+
+ .connections-request {
+     width: 100%;
+     height: 25%;
+     background-color: rgb(51, 51, 51);
+     color: white;
+     display: flex;
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ .request-button {
+     margin-left: 10px;
+     border-radius: 50%;
+     font-size: x-small;
+     width: 20px;
+
+ }
+
+ .requester-info {
+     display: flex;
+     align-items: center;
+     width: 134px;
+     height: 75.25px;
+     border-left: 3px solid rgb(204, 204, 204);
+     border-right: 3px solid rgb(204, 204, 204);
+     border-bottom: 3px solid rgb(204, 204, 204);
+     color: black;
+
+ }
+
+ .requester-pic {
+     width: 15px;
+     margin: 1px;
+     border-radius: 50%;
+ }
+
+ .requester-name {
+     font-size: smaller;
+ }
+
+ .check-mark {
+     padding-left: 25px;
+ }
+
+ .bottom-right-block {
+     width: 140px;
+     height: 150px;
+     background-color: white;
+
+     margin: 20px;
+     margin-left: 10px;
+ }
+
+ .your-connetions {
+     width: 100%;
+     height: 20%;
+     background-color: rgb(51, 51, 51);
+     color: white;
+     display: flex;
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ .your-connections-info {
+     width: 134px;
+     height: 84px;
+     border-left: 3px solid rgb(204, 204, 204);
+     border-right: 3px solid rgb(204, 204, 204);
+     border-bottom: 3px solid rgb(204, 204, 204);
+     color: black;
+     display: flex;
+     align-items: center;
+
+ }
+
+
+ .your-connections-extras {
+     width: 134px;
+     height: 24px;
+     border-left: 3px solid rgb(204, 204, 204);
+     border-right: 3px solid rgb(204, 204, 204);
+     border-bottom: 3px solid rgb(204, 204, 204);
+     color: black;
+ }
+
+ .veiw-more {
+     font-size: x-small;
+     margin-left: 10px;
+ }
