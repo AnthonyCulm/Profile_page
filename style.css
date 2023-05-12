@@ -280,13 +280,14 @@
 
  .your-connections-info {
      width: 134px;
-     height: 84px;
+     height: 94px;
      border-left: 3px solid rgb(204, 204, 204);
      border-right: 3px solid rgb(204, 204, 204);
      border-bottom: 3px solid rgb(204, 204, 204);
      color: black;
      display: flex;
      align-items: center;
+
 
  }
 
