@@ -144,9 +144,18 @@
  }
 
  .edit-profile {
+
      font-size: large;
      margin-left: 20px;
      margin-top: 10px;
+ }
+
+ .edit-profile-button {
+     background-color: white;
+     border: 0px;
+     text-decoration-line: underline;
+     color: rgb(43, 120, 228);
+     cursor: pointer;
  }
 
  .bottom-left-block {
@@ -229,6 +238,11 @@
 
  }
 
+ .photo-and-name {
+     display: flex;
+     align-items: center;
+ }
+
  .request-button {
      margin-left: 20px;
      border-radius: 50%;
@@ -238,8 +252,8 @@
 
  }
 
- .requester-info {
-     display: flex;
+ .requester-main {
+
      align-items: center;
      width: 268px;
      height: 150.50px;
@@ -247,8 +261,17 @@
      border-right: 6px solid rgb(204, 204, 204);
      border-bottom: 6px solid rgb(204, 204, 204);
      color: black;
+     justify-content: space-between;
 
  }
+
+ .requester-group {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding-top: 10px;
+ }
+
 
  .requester-pic {
      width: 40px;
@@ -261,7 +284,12 @@
  }
 
  .check-mark {
-     padding-left: 45px;
+     width: 30px;
+     margin: 10px;
+
+     border-radius: 50%;
+     background-color: white;
+
  }
 
  .bottom-right-block {

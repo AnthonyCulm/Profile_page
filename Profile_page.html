@@ -41,7 +41,7 @@
                 </div>
                 <div class="profile-info-box">
                     <div class="profile-info">
-                        <h3 class="profile-name">Anthony Culm</h3>
+                        <h3 id="difName" class="profile-name">Anthony Culm</h3>
 
                         <h6 class="location"><img id="map-maker" src="images/map-marker.png" alt="map-maker-icon">West
                             palm beach</h6>
@@ -50,7 +50,7 @@
                     </div>
                     <div class="edit-profile">
                         <img id="gear" src="images/gear.png" alt="gear-icon">
-                        <a href="#">edit profile</a>
+                        <button class="edit-profile-button" onclick="nameChange()">edit profile</button>
 
                     </div>
 
@@ -85,30 +85,31 @@
                     <h6>Connections Request</h6>
 
                 </div>
-                <div class="requester-info">
-                    <table>
-                        <tr>
-                            <th><img class="requester-pic" src="images/todd-s.jpg" alt="connections-profile-image"></th>
-                            <th>
-                                <label class="requester-name">Todd E</label>
-                            </th>
-                            <th class="check-mark"><img class="requester-pic" src="images/accept-circle.png"
-                                    alt="button-check-mark"><img class="requester-pic" src="images/close-circle.png"
-                                    alt="button-X-mark"></th>
-                        </tr>
-                        <tr>
-                            <th><img class="requester-pic" src="images/phil-s.jpg" alt="connections-profile-image"></th>
-                            <th>
-                                <label class="requester-name">Phil K</label>
-                            </th>
-                            <th class="check-mark"><img class="requester-pic" src="images/accept-circle.png"
-                                    alt="button-check-mark"><img class="requester-pic" src="images/close-circle.png"
-                                    alt="button-X-mark"></th>
-                        </tr>
-                    </table>
+                <div class="requester-main">
+                    <div class="requester-group todd">
+                    <div class="photo-and-name">
+                        <img class="requester-pic" src="images/todd-s.jpg" alt="connections-profile-image">
+                        <p class="requester-name"><strong>Todd C</strong></p>
+                    </div>
+                    <div class="check-x-button">
+                        <button onclick="allow('.todd')"><img class="check-mark" src="images/accept-circle.png" alt="checkmark"></button>
+                        <button onclick="deny('.todd')"><img class="check-mark" src="images/close-circle.png" alt="checkmark"></button>
+                    </div>
+                </div>
+                <div  class="requester-group phil">
+                    <div class="photo-and-name">
+                        <img class="requester-pic" src="images/phil-s.jpg" alt="connections-profile-image">
+                        <p class="requester-name"><strong>Phil J</strong></p>
+                    </div>
+                    <div class="check-x-button">
+                        <button onclick="allow('.phil')"><img class="check-mark" src="images/accept-circle.png" alt="checkmark"></button>
+                        <button onclick="deny('.phil')"><img class="check-mark" src="images/close-circle.png" alt="checkmark"></button>
+                    </div>
+                </div>
 
 
                 </div>
+
 
 
             </div>
@@ -162,7 +163,7 @@
 
         </div>
     </div>
-
+    <script src="profile_page.js"></script>
 </body>
 
 </html>
